@@ -25,7 +25,7 @@ zoneShardingDemo/
 Edit `config.py` and update the connection string:
 
 ```python
-MONGODB_URI = "mongodb+srv://your-username:your-password@your-cluster.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = "mongodb+srv://<username:password>@<cluster-uri>/?retryWrites=true&w=majority"
 ```
 
 ### Step 2: Activate Virtual Environment
